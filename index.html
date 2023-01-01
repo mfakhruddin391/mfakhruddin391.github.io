@@ -10,7 +10,7 @@
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
 
-
+    <link rel="stylesheet" href="css/loader.css" type="text/css"/>
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
     <link rel="stylesheet" href="css/animations.css" type="text/css">
@@ -20,9 +20,14 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <script src="js/modernizr.custom.js"></script>
+
+    
   </head>
 
   <body>
+    <div class="loader_parent" id="loader_parent">
+      <div class="loader" id="loader"><div uk-spinner="ratio: 2"></div></div>
+    </div>
     <!-- Animated Background -->
     <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
     <!-- /Animated Background -->
@@ -94,11 +99,12 @@
             <div class="social-links">
               <ul>
                 <li><a href="https://www.linkedin.com/in/mohammad-fakhruddin-695499138/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/mfakhruddin391" target="_blank"><i class="fab fa-github"></i></a></li>
               </ul>
             </div>
 
             <div class="header-buttons">
-              <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+           <!--   <a href="#" target="_blank" class="btn btn-primary">Download CV</a>-->
             </div>
 
             <div class="copyrights">All rights reserved.</div>
@@ -160,9 +166,9 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
                       <p>
-                      I love to invent something in general, specifically using my programming skills because it gave me the ability to
-                      express my idea & make it become reality. I also love to explore other's engineering field such as mechanical & electronic engineering in the fundemental apsect of it
-                      (it's because of IoT) but thats just when i have free time. Programming sometimes is not about making money. It can be the way of starting a revolution,movement or perhaps changing the world in a better place.
+                      I love to invent using my programming skills because it gave me the ability to
+                      express my idea & make it become reality. I'm also love to explore other's engineering field such as mechanical & electronic engineering in the fundemental apsect of it
+                      (it's because of IoT) if have free time. Programming sometimes is not about making money. It can be the way of starting a revolution,movement or perhaps changing the world in a better place.
                       </p>
                     </div>
 
@@ -192,7 +198,7 @@
                             <div class="ci-text">
                               <h4>Computer Science</h4>
                               <p>Although my major in software engineering but i love to explore different topics in CS area such as Artificial Intelligence, 
-                                 Data Structure & Algorithms, Cryptography & many more</p>
+                                 Data Structure & Algorithms, Cryptography & etc.</p>
                             </div>
                           </div>
                           <div class="info-block-w-icon">
@@ -200,8 +206,8 @@
                               <i class="lnr lnr-enter"></i>
                             </div><div class="ci-text">
                               <h4>Go Gym</h4>
-                              <p>Since my expertise doesn't involve improving my physical strength & most of the time are thinking,typing and sit infront of screen,
-                                 going to the gym as a routine is must to stay fit & live a healthy lifestyle.
+                              <p>Since my expertise doesn't involve using any physical ability to lift & most of the time are thinking,typing and sit infront of screen,
+                                 going to the gym should be as a routine to stay fit & live a healthy lifestyle.
                               </p>
                             </div>
                           </div>
@@ -216,8 +222,8 @@
                               <i class="lnr lnr-pencil"></i>
                             </div>
                             <div class="ci-text">
-                              <h4>Physcology</h4>
-                              <p>Physcology is very interesting topics because it give me more understanding on human behaviour or action. It also give me more empathy on someone feelings.</p>
+                              <h4>Reading Books</h4>
+                              <p>Honestly book is very boring but i force myself to read it because i want to improve my english(especially in communication & pronounciation). The genre that i interested is technology </p>
                             </div>
                           </div>
                           <div class="info-block-w-icon">
@@ -232,16 +238,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-flag"></i>
-                        </div><div class="ci-text">
-                          <h4>Reading Books</h4>
-                          <p>Honestly book is very boring but i force myself to read it because i try to improve my english(especially in communication & pronounciation). The Books that I love to read is as long as the topics related to technology </p>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                   <!-- End of Services -->
 
@@ -655,7 +652,7 @@
               <!-- Blog Subpage -->
               <section data-id="blog" class="animated-section">
                 <div class="page-title">
-                  <h2>Blog</h2>
+                  <h2>Blog (Coming Soon)</h2>
                 </div>
 
                 <div class="section-content">
@@ -664,6 +661,7 @@
                       <div class="blog-masonry two-columns clearfix">
                         
                         <!-- Blog Post 1 -->
+                         <!--
                         <div class="item post-1">
                           <div class="blog-card">
                             <div class="media-block">
@@ -675,6 +673,7 @@
                                 <div class="mask"></div>
                               </a>
                             </div>
+                           
                             <div class="post-info">
                               <div class="post-date">05 Mar 2020</div>
                               <a href="blog/blog-post-1.html">
@@ -682,10 +681,11 @@
                               </a>
                             </div>
                           </div>
-                        </div>
+                        </div>-->
                         <!-- End of Blog Post 1 -->
 
                         <!-- Blog Post 2 -->
+                        <!--
                         <div class="item post-2">
                           <div class="blog-card">
                             <div class="media-block">
@@ -704,7 +704,7 @@
                               </a>
                             </div>
                           </div>
-                        </div>
+                        </div>-->
                         <!-- End of Blog Post 2 -->
 
                         
@@ -768,30 +768,27 @@
                       <div class="block-title">
                         <h3>How Can I <span>Help You?</span></h3>
                       </div>
-
-                      <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
-
                         <div class="messages"></div>
-
+                        <form name="myForm" class="myForm" enctype='multipart/form-data'>
                         <div class="controls two-columns">
                           <div class="fields clearfix">
                             <div class="left-column">
                               <div class="form-group form-group-with-icon">
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                                <input id="form_name" type="text" name="from_name" class="form-control from_name" placeholder="" required="required" data-error="Name is required.">
                                 <label>Full Name</label>
                                 <div class="form-control-border"></div>
                                 <div class="help-block with-errors"></div>
                               </div>
                               
                               <div class="form-group form-group-with-icon">
-                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                <input id="form_email" type="email" name="email" class="form-control email" placeholder="" required="required" data-error="Valid email is required.">
                                 <label>Email Address</label>
                                 <div class="form-control-border"></div>
                                 <div class="help-block with-errors"></div>
                               </div>
 
                               <div class="form-group form-group-with-icon">
-                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+                                <input id="form_subject" type="text" name="subject" class="form-control subject" placeholder="" required="required" data-error="Subject is required.">
                                 <label>Subject</label>
                                 <div class="form-control-border"></div>
                                 <div class="help-block with-errors"></div>
@@ -799,7 +796,7 @@
                             </div>
                             <div class="right-column">
                               <div class="form-group form-group-with-icon">
-                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="6" cols="8" required="required" data-error="Please, leave me a message."></textarea>
+                                <textarea id="form_message" name="message" class="form-control msg" placeholder="" rows="6" cols="8" required="required" data-error="Please, leave me a message."></textarea>
                                 <label>Message</label>
                                 <div class="form-control-border"></div>
                                 <div class="help-block with-errors"></div>
@@ -807,7 +804,7 @@
                             </div>
                           </div>
 
-                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" aria-required="true"></div>
       
                           <input type="submit" class="button btn-send" value="Send message">
                         </div>
@@ -824,6 +821,9 @@
 
       </div>
     </div>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+  </script>
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -838,9 +838,70 @@
     <script src='js/owl.carousel.min.js'></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
-    <script src="js/jquery.googlemap.js"></script>
     <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
   </body>
+
+  <script>
+    $(document).ready(function(){
+
+      /*
+      var data = {
+      service_id: 'service_p3tlleb',
+      template_id: 'template_wmauqmq',
+      user_id: 'oLH5cfKwk_ynlUlbC',
+      template_params: {
+          'from_name': '',
+          'email' : '',
+          'subject' : '',
+          'message' : '',
+          'g-recaptcha-response': ''
+      }
+    }
+*/
+    $('.myForm').on('submit', function(event) {
+    event.preventDefault(); // prevent reload
+
+    var recaptcha = document.forms["myForm"]["g-recaptcha-response"].value;
+    if (recaptcha == "") {
+        alert("Please fill reCAPTCHA");
+        return false;
+    } else{
+      let spinner = document.querySelector("#loader_parent")
+      spinner.classList.add("blurred")
+      var formData = new FormData(this);
+      formData.append('service_id', 'service_p3tlleb');
+      formData.append('template_id', 'template_wmauqmq');
+      formData.append('user_id', 'oLH5cfKwk_ynlUlbC');
+
+    
+      $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
+        type: 'POST',
+        data: formData,
+        contentType: false, // auto-detection
+        processData: false // no need to parse formData to string
+      })
+      .done(function() {
+        spinner.classList.remove("blurred");
+        alert('Email has been sent!');
+        location.reload();
+
+      }).fail(function(error) {
+
+          alert('Oops... ' + JSON.stringify(error));
+      });
+      // code fragment
+    }
+    });
+
+   
+
+    });
+  </script>
+   <script type="text/javascript">
+    var onloadCallback = function() {
+    
+    };
+  </script>
+  
 </html>
