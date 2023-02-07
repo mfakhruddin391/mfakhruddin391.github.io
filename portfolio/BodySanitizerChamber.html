@@ -1,0 +1,81 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+            
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Body Sanitizer Chamber</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/BodySanitizer/bodysanitizer_pic8.png" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/portfolio/BodySanitizer/bodysanitizer_pic6.png" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/portfolio/BodySanitizer/bodysanitizer_demo.gif" alt="" />
+                    </div>
+                </div>
+<!--
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+                </div>
+-->
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                
+                    <p class="text-justify">Body sanitizer/disinfection chamber or better known as disinfection gate is a room or space that is expected to eliminate harmful germs and pathogenic microorganisms by using chemical substances and liquids. the used liquid disinfectant is Aseptrol S10-Tab which has been proven to kill virus such as SARS,H1N1, Avian Influenza A & HIV. this chamber developed before the the Scientist,Immunologist successfully developed the covid-19 Vaccine.</p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>Arduino UNO</a></li>
+                            <li><a>C++</a></li>
+                            <li><a>Sensor</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+
+                  
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>

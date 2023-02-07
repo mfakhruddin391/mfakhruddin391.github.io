@@ -1,8 +1,5 @@
 /*
-* Template Name: BreezyCV - Resume / CV / vCard / Portfolio Template
-* Author: LMPixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.3.0
+
 */
 
 /* ------------------------------------------------------------
@@ -1311,12 +1308,15 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 /* --- Skills Values --- */
+
+
+
 .skills-second-style .skill-container.skill-1 .skill-percentage {
-  width: 95%;
+  width: 20%;
 }
 
 .skills-second-style .skill-container.skill-2 .skill-percentage {
-  width: 65%;
+  width: 40%;
 }
 
 .skills-second-style .skill-container.skill-3 .skill-percentage {
@@ -1324,15 +1324,15 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-4 .skill-percentage {
-  width: 90%;
+  width: 60%;
 }
 
 .skills-second-style .skill-container.skill-5 .skill-percentage {
-  width: 95%;
+  width: 80%;
 }
 
 .skills-second-style .skill-container.skill-6 .skill-percentage {
-  width: 85%;
+  width: 100%;
 }
 
 .skills-second-style .skill-container.skill-7 .skill-percentage {
